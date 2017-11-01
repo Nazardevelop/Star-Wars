@@ -18,6 +18,35 @@ header {
     font-size: 5vw;
     text-align: center;
 }
+#slider {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+#slider .slides {
+    display: block;
+    width: 500%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 20%;
+    height: 400px;
+}
+/*#slider .slide img {
+    width: 100%;
+    height: 200px;
+}*/
+.img-responsive {
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
 .personages {
     width: 100%;
     font-family: "Times New Roman";
