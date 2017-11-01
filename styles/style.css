@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background: url(../images/main_background.png) no-repeat ;
+}
+header {
+   color: #fff831;
+    font-family: "Times New Roman";
+    font-size: 5vw;
+    text-align: center;
+}
+.personages {
+    width: 100%;
+    font-family: "Times New Roman";
+    font-size: 30px;
+}
+.personages li {
+    width: 30%;
+    display: block;
+    border: 1px solid white;
+    float: left;
+    margin: 1%;
+    text-align: center;
+}
+.checkbox {
+    margin-left: 15px;
+
+
+}
